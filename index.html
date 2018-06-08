@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="flapjax.js"></script>
-    <script src="script.js"></script>
+    <script src="node_modules/ramda/dist/ramda.min.js"></script>
+    <script src="src/flapjax.js"></script>
+    <script src="src/module.js"></script>
+    <script src="src/script.js"></script>
     <title>MIDI Calc</title>
 </head>
 <body>
     <h2>MIDI to Frequency Calculator</h2>
-    <label>Enter MIDI number</label>
+    <label for="pitch">Enter MIDI number</label>
     <input type="number" id="pitch">
     <main id="app"></main>   
 </body>
