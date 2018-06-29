@@ -1,12 +1,13 @@
 window.addEventListener('load', function(){
-   let app = $('app');
-   let input = $('pitch');
-
-   const formattedFreq = extractValueE(input)
+   let app = $('pitches');
+   let octave = $('octave');
+   let tone = $('tone'); 
+    
+   const formattedFreq = extractValueE(tone)
                       .mapE(midiFromString)
                       .startsWith(NaN)
                       .liftB(sanitizeFreq)
-
-   let result  = DIV({id:'freq'}, P(formattedFreq));   
-   app.appendChild(result)
+  
+   let result  = DIV('hi');
+   app.appendChild(result);
 })
