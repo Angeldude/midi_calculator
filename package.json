@@ -1,0 +1,22 @@
+{
+  "name": "midi_calculator",
+  "version": "1.0.0",
+  "description": "This is a basic application that converts MIDI numbers to frequency in hertz (hz). This was created using the flapjax.js library.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Angeldude/midi_calculator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Angeldude/midi_calculator/issues"
+  },
+  "homepage": "https://github.com/Angeldude/midi_calculator#readme",
+  "dependencies": {
+    "ramda": "^0.25.0"
+  }
+}
